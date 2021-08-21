@@ -7,9 +7,9 @@ The LSTM was chosen because it uses the RNN (Recurrent Neural Network) architect
 
 <p align="center">
     <img src="/imgs/eq_1.png" | width=300>
-<\p>
+</p>
 <p align="center">
     <img src="/imgs/Recurrent_neural_network_unfold.png" | width=650>
-<\p>
+</p>
 
 The LSTM retains the RNN architecture while mitigating the multiplicative gradient by utilizing "forget gates", which regulates the amount of information passed forward through the model. The short-term memory aspect of the model supports the generation of speech/text because usually the meaning of the word or sentence is directly influenced by other words or sentences in its vicinity. Strictly speaking, the first word in an article most likely has minimal influence on the actual meaning of the article five hundred words deep.
