@@ -7,9 +7,9 @@ The LSTM was chosen because it uses the RNN (Recurrent Neural Network) architect
 
 <center>
 
-<img src="https://github.com/awalber/fake-news-detector/imgs/eq_1.png">
+<img src="https://github.com/awalber/fake-news-detector/tree/main/imgs/eq_1.png">
 
-<img src="https://github.com/awalber/fake-news-detector/imgs/Recurrent_neural_network_unfold.png">
+<img src="https://github.com/awalber/fake-news-detector/tree/main/imgs/Recurrent_neural_network_unfold.png">
 </center>
 
 The LSTM retains the RNN architecture while mitigating the multiplicative gradient by utilizing "forget gates", which regulates the amount of information passed forward through the model. The short-term memory aspect of the model supports the generation of speech/text because usually the meaning of the word or sentence is directly influenced by other words or sentences in its vicinity. Strictly speaking, the first word in an article most likely has minimal influence on the actual meaning of the article five hundred words deep.
